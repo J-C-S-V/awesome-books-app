@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/J-C-S-V/awesome-books-app/issues"
   },
-  "homepage": "https://github.com/J-C-S-V/awesome-books-app#readme"
+  "homepage": "https://github.com/J-C-S-V/awesome-books-app#readme",
+  "dependencies": {
+    "luxon": "^3.3.0"
+  }
 }
