@@ -1,5 +1,5 @@
 /* eslint-disable max-classes-per-file */
-export class Book {
+export default class Book {
   constructor(title, author) {
     this.title = title;
     this.author = author;

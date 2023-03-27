@@ -1,4 +1,4 @@
-export class UI {
+export default class UI {
   // eslint-disable-next-line class-methods-use-this
   addBookToTheList(book) {
     const ul = document.getElementById('tbody-container');
