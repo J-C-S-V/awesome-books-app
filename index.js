@@ -1,6 +1,7 @@
 import { Book } from './modules/Book.js';
 import { UI } from './modules/UI.js';
 import { Store } from './modules/Store.js';
+import { DateTime } from './node_modules/luxon/src/luxon.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   Store.displayBooks();
@@ -69,8 +70,9 @@ linkContact.addEventListener('click', (event) => {
 });
 
 const span = document.getElementById('date');
-const date = new Date();
-span.innerHTML = date;
+const now = DateTime.now();
+// const date = new Date();
+span.innerHTML = now;
 
 const displayPage = (currentPage) => {
   const sections = document.querySelectorAll('section');
