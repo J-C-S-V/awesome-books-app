@@ -1,3 +1,5 @@
+import UI from './UI.js';
+
 export default class Store {
   static getBooks() {
     let books;
